@@ -8,7 +8,7 @@ A sub project of it-books that supports download it-books directly and searching
 
 ###API: http://itbooks-live-release-surge-778.appspot.com/download
 
-###Json body to search a book:
+###Json body to search a book
 ```json
 {
   "query":"windows 8"
@@ -16,8 +16,7 @@ A sub project of it-books that supports download it-books directly and searching
 
 ```
 
-###Result 
-
+###Result, status=200(success, otherwise fail).
 ```json
 {
     "status": 200,
